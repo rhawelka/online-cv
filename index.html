@@ -2,10 +2,16 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./style.css">
+        <script
+            defer
+            src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"
+            integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ"
+            crossorigin="anonymous"></script>
         <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            href="https://fonts.googleapis.com/css?family=Courier+Prime|Oswald|Raleway:900&display=swap"
+            rel="stylesheet">
+
+        <link rel="stylesheet" href="./style.css">
     </head>
     <body>
         <div class="row">
@@ -15,20 +21,30 @@
                     <img
                         src="https://images.pexels.com/photos/35183/people-homeless-man-male.jpg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
                         alt="photo">
-                    <p class="img-text">Rafał Hawełka</p>
+                    <p class="img-text oswald">Rafał Hawełka</p>
                 </div>
                 <!-- PROFILE -->
-                <div class="sidebar-content p-1">
-                    <ul class="list-style-none">
-                        <li>ikonka + Junior Software Developer</li>
-                        <li>ikonka + Cracow, PL</li>
-                        <li>ikonka + rafalhawelka@gmail.com</li>
-
-                        <li>ikonka + 513549366</li>
+                <div class="sidebar-content">
+                    <ul class="list-style-none oswald">
+                        <li>
+                            <i class="fas fa-briefcase"></i>
+                            Junior Software Developer</li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Cracow, PL</li>
+                        <li>
+                            <i class="fas fa-at"></i>
+                            rafalhawelka@gmail.com
+                            </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            513549366</li>
                     </ul>
-                    <div class="col-12 text-white p-2">
-                        <h3>ikonka + PROFILE</h3>
-                        <p class="text-align-justify">I am interested in Web Development, e.g.
+                    <div class="col-12">
+                        <h2 class="raleway">
+                            <i class="fas fa-user"></i>
+                            PROFILE</h2>
+                        <p class="text-align-justify courier-prime text-lightgray">I am interested in Web Development, e.g.
                             developing apps and building websites. I am looking for a company willing to
                             offer me a placement among their developers. In return, I would offer my full
                             commitment, and be a pleasant and friendly addition to your team. I am therefore
@@ -36,24 +52,42 @@
                     </div>
                     <!-- LANGUAGES -->
                     <div class="col-12">
-                        LANGUAGES:
-                        <p>english b2</p>
+                        <h2 class="raleway">
+                            <i class="fas fa-language"></i>
+                            LANGUAGES</h2>
+                        <h4 class="courier-prime"> <i class="fas fa-globe"></i> English - B2</h4>
                     </div>
                     <!-- HOBBY -->
                     <div class="col-12">
-                        <h2>HOBBY</h2>
-                        <ul class="list-style-none">
-                            <li>ikonka + Lego Bricks</li>
-                            <li>ikonka + American Football</li>
-                            <li>ikonka + board games, chess</li>
+                        <h2 class="raleway">
+                            <i class="far fa-smile"></i>
+                            HOBBY</h2>
+                        <ul class="list-style-none courier-prime">
+                            <li>Lego Bricks</li>
+                            <li>American Football</li>
+                            <li>Board games, chess</li>
                         </ul>
                     </div>
                     <div class="col-12">
-                        <h3>LINKS</h3>
-                        <ul class="list-style-none">
-                            <li>ikonka + repozytorium</li>
-                            <li>ikonka + www.linkedin.com/in/rafał-hawełka</li>
-                            <li>ikonka + cv do pobrania</li>
+                        <h2 class="raleway">
+                            <i class="fas fa-paperclip"></i>
+                            LINKS</h2>
+                        <ul class="list-style-none courier-prime">
+                            <li>
+                                <i class="fab fa-github"></i>
+                                <a href="https://github.com/rhawelka">
+                                    Repository</a>
+                            </li>
+                            <li>
+                                <i class="fab fa-linkedin"></i>
+                                <a href="www.linkedin.com/in/rafał-hawełka">
+                                    Linkedin</a>
+                            </li>
+                            <li>
+                                <button class="p-1 m-1 oswald">
+                                    <i class="fas fa-download"></i>
+                                    Download Resume</button>
+                            </li>
                         </ul>
                     </div>
 
@@ -63,16 +97,16 @@
             <div class="col-9 content">
                 <!-- WORK EXPERIENCE SECTION -->
                 <div class="col-12 p-2 ">
-                    <h1>EXPERIENCE</h1>
+                    <h1 class="raleway">EXPERIENCE</h1>
                     <ul class="text-align-justify list-style-none">
                         <li>
-                            <h2 class="text-lightgray">Junior Software Engineer</h2>
+                            <h2 class="text-lightgray oswald"><i class="fas fa-flask"></i> Junior Software Engineer</h2>
                             <div>
-                                <span>Global Logic |
+                                <span class="oswald">GlobalLogic |
                                 </span>
-                                <span>Jul 2019 - Aug 2019</span>
+                                <span class="text-gray">Jul 2019 - Aug 2019</span>
                             </div>
-                            <p class="text-gray">Summer academy was a two-month intern program ,divided into
+                            <p class="text-lightgray courier-prime">Summer academy was a two-month intern program ,divided into
                                 two theoretical and paractical parts - each phase lasting one month. While
                                 carrying out programming exercises ,participants got familiar with numerous .NET
                                 Technologies and frameworks as well as tried to combine it with modern front-end
@@ -82,13 +116,13 @@
                                 from scratch.</p>
                         </li>
                         <li>
-                            <h2>Junior Support Specialist</h2>
+                            <h2 class="text-lightgray oswald"><i class="fas fa-flask"></i> Junior Support Specialist</h2>
                             <div class="mb-1">
-                                <span>Salesmanago |
+                                <span class="oswald">SalesManago |
                                 </span>
-                                <span>Dec 2017 - Dec 2018</span>
+                                <span class="text-gray">Dec 2017 - Dec 2018</span>
                             </div>
-                            <ul class="text-gray">
+                            <ul class="text-lightgray courier-prime">
                                 <li>Use Sql applications and tools to run basic SQL queries</li>
                                 <li>Assist in responding to customer incidents, information request and service
                                     request</li>
@@ -102,14 +136,14 @@
                 <!-- EDUCATION SECTION -->
                 <div class="col-12 p-2">
                     <div>
-                        <h1>EDUCATION</h1>
+                        <h1 class="raleway">EDUCATION</h1>
                         <div class="m-2"><img
                             src="https://www.agh.edu.pl/uploads/tx_templavoila/znak_graficzny_agh_w_negatywowa.jpg"
                             alt="agh logo"
                             width="75"
                             height="75"
                             align="left">
-                            <h2>AGH University of Science and Technology</h2>
+                            <h2 class="text-lightgray">AGH University of Science and Technology</h2>
                         </div>
                         <span class="text-align-center">M. Sc. Geology Engineering |
                         </span>
@@ -119,7 +153,7 @@
                 </div>
                 <!-- SKILLS SECTION -->
                 <div class="col-12 p-2">
-                    <h1 class="m-0">SKILLS</h1>
+                    <h1 class="m-0 raleway">SKILLS</h1>
                     <div class="skills-container text-align-center overflow-hidden">
                         <!-- HTML -->
                         <div class="card col-3 p-2">
@@ -318,9 +352,17 @@
             </div>
         </div>
         <!-- FOOTER -->
-        <!-- <footer class="col-12">
-        siema co tam
-  </footer> -->
+        <footer class="col-12 text-align-center">
+            <div class="m-3">
+                <h1 class="raleway">FIND ME IN SOCIAL MEDIA</h1>
+                <span class="footer-social-icon"><i class="fab fa-facebook"></i></span>
+                <span class="footer-social-icon"><i class="fab fa-instagram"></i></span>
+                <span class="footer-social-icon"><i class="fab fa-github-alt"></i></span>
+                <span class="footer-social-icon"><i class="fab fa-linkedin"></i></i></span>
+                <br>
+                <button class="p-1 m-2 oswald">to the top</button>
+            </div>
+        </footer>
     </div>
 
 </body>

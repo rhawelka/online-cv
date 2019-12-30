@@ -3,6 +3,7 @@
             box-sizing: border-box;
   }
 
+
   body{
       background-color: black;
       color: white;
@@ -63,6 +64,18 @@
   .text-white{color: white;}
   .text-gray{color: gray;}
 
+/* TEXT FAMILY */
+
+  .oswald{
+    font-family: 'Oswald', sans-serif;
+  }
+  .courier-prime{
+    font-family: 'Courier Prime', monospace;
+  }
+  .raleway{
+    font-family: 'Raleway', sans-serif;
+  }
+
 /* BACKGROUND */
   .overflow-hidden{
       overflow: hidden;
@@ -73,11 +86,24 @@
   .bg-black{background-color: black;}
   .bg-white{background-color: white;}
 
-  .list-style-none{
+.list-style-none{
       list-style: none;
   }
+
+.list-style-none a {
+    text-decoration: none;
+    color: inherit;
+}
+.list-style-none a:hover{
+    cursor: pointer;
+}
   
 /* SIDEBAR */
+
+.sidebar-content ul li {
+    margin: 5px;
+    font-size: 16px;
+}
 
 .sidebar-img{
 position: relative;
@@ -91,7 +117,7 @@ position: relative;
   }
 
 .img-text{
-    position: absolute;
+position: absolute;
   bottom: 8px;
   left: 16px;
   font-size: 20px;
@@ -151,37 +177,37 @@ svg circle:nth-child(2){
 /*HTML*/
 .card:nth-child(1) svg circle:nth-child(2){
     stroke-dashoffset: calc(400 - (400 * 75) / 100);
-    stroke: #00ff43;
+    stroke: orange;
 }
 /*CSS*/
 .card:nth-child(2) svg circle:nth-child(2){
     stroke-dashoffset: calc(400 - (400 * 75) / 100);
-    stroke: red;
+    stroke: blue;
 }
 /*SASS/SCSS*/
 .card:nth-child(3) svg circle:nth-child(2){
-    stroke-dashoffset: calc(400 - (400 * 75) / 100);
-    stroke: red;
+    stroke-dashoffset: calc(400 - (400 * 50) / 100);
+    stroke: pink;
 }
 /*BOOTSTRAP*/
 .card:nth-child(4) svg circle:nth-child(2){
     stroke-dashoffset: calc(400 - (400 * 75) / 100);
-    stroke: red;
+    stroke: purple;
 }
 /*JAVASCRIPT*/
 .card:nth-child(5) svg circle:nth-child(2){
     stroke-dashoffset: calc(400 - (400 * 75) / 100);
-    stroke: red;
+    stroke: yellow;
 }
 /*TYPESCRIPT*/
 .card:nth-child(6) svg circle:nth-child(2){
     stroke-dashoffset: calc(400 - (400 * 75) / 100);
-    stroke: red;
+    stroke: lightblue;
 }
 /*JQUERY*/
 .card:nth-child(7) svg circle:nth-child(2){
     stroke-dashoffset: calc(400 - (400 * 75) / 100);
-    stroke: red;
+    stroke: rgb(221, 183, 127);
 }
 /*ANGULAR*/
 .card:nth-child(8) svg circle:nth-child(2){
@@ -191,22 +217,22 @@ svg circle:nth-child(2){
 /*REACT*/
 .card:nth-child(9) svg circle:nth-child(2){
     stroke-dashoffset: calc(400 - (400 * 75) / 100);
-    stroke: red;
+    stroke: rgb(25, 64, 88);
 }
 /*C#*/
 .card:nth-child(10) svg circle:nth-child(2){
     stroke-dashoffset: calc(400 - (400 * 75) / 100);
-    stroke: red;
+    stroke: purple;
 }
 /*SQL*/
 .card:nth-child(11) svg circle:nth-child(2){
     stroke-dashoffset: calc(400 - (400 * 75) / 100);
-    stroke: red;
+    stroke: blue;
 }
 /*GIT*/
 .card:nth-child(12) svg circle:nth-child(2){
     stroke-dashoffset: calc(400 - (400 * 75) / 100);
-    stroke: red;
+    stroke: rgb(236, 104, 104);
 }
 
 .percent{
@@ -287,11 +313,13 @@ svg circle:nth-child(2){
 
 
 /* FOOTER */
+.footer-social-icon{
+    font-size: 35px;
+    margin: 3px;
+}
 
-  /* footer{
-      background-color: black;
-  } */
 
+/* RWD */
   
   @media only screen and (max-width: 768px) {
     /* For mobile phones: */

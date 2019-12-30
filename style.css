@@ -365,6 +365,9 @@ svg circle:nth-child(2){
 
 
 /* RWD */
+
+/* Extra small devices (phones, 600px and down) */
+
   
   @media only screen and (max-width: 768px) {
     /* For mobile phones: */
@@ -377,4 +380,12 @@ svg circle:nth-child(2){
     .links-part{
         text-align: center;
     }
+
+    .card{
+        width: 50%;
+    }
   }
+
+  @media only screen and (max-width: 500px) {
+    .card{width: 100%;}
+}

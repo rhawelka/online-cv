@@ -123,7 +123,41 @@ position: absolute;
   font-size: 20px;
 }
 
+/* BUTTON DOWNLOAD RESUME*/
+
+.btn-tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; 
+  }
+  .btn-tooltip:hover{
+      cursor:not-allowed;
+  }
+  /* TOOLTIP TEXT */
+  .btn-tooltip .tooltip-text {
+    visibility: hidden;
+    min-width: 120px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 6px 0;
+    border-radius: 5px;
+    border: 2px solid gray;
+    position: absolute;
+    z-index: 1;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+    .btn-tooltip:hover .tooltip-text {
+    visibility: visible;
+  }
+
+  
+
 /* CONTENT*/
+
 
 /* SKILLS PROGRESS BAR */ 
 
@@ -293,7 +327,7 @@ svg circle:nth-child(2){
     color: #fff;
 }
 
-.text{
+.card .box .text{
     position: relative;
     color: #777;
     font-weight: 700;
@@ -307,15 +341,26 @@ svg circle:nth-child(2){
     -o-transition: 0.5s;
 }
 
-.card:hover .text{
+.card:hover .box .text{
     color: white;
 }
+
+
 
 
 /* FOOTER */
 .footer-social-icon{
     font-size: 35px;
     margin: 3px;
+    cursor: pointer;
+}
+.btn-to-top{
+    background-color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+.btn-to-top:hover{
+    opacity: 0.7;
 }
 
 

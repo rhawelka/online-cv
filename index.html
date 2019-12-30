@@ -19,7 +19,7 @@
                 <!-- MY PHOTO -->
                 <div class="sidebar-img p-2">
                     <img
-                        src="https://images.pexels.com/photos/35183/people-homeless-man-male.jpg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+                        src="./images/cv_photo.jpg"
                         alt="photo">
                     <p class="img-text oswald">Rafał Hawełka</p>
                 </div>
@@ -35,7 +35,7 @@
                         <li>
                             <i class="fas fa-at"></i>
                             rafalhawelka@gmail.com
-                            </li>
+                        </li>
                         <li>
                             <i class="fas fa-phone"></i>
                             513549366</li>
@@ -44,18 +44,21 @@
                         <h2 class="raleway">
                             <i class="fas fa-user"></i>
                             PROFILE</h2>
-                        <p class="text-align-justify courier-prime text-lightgray">I am interested in Web Development, e.g.
-                            developing apps and building websites. I am looking for a company willing to
-                            offer me a placement among their developers. In return, I would offer my full
-                            commitment, and be a pleasant and friendly addition to your team. I am therefore
-                            currently looking for a job or an internship as a Front-end developer.</p>
+                        <p class="text-align-justify courier-prime text-lightgray">I am interested in
+                            Web Development, e.g. developing apps and building websites. I am looking for a
+                            company willing to offer me a placement among their developers. In return, I
+                            would offer my full commitment, and be a pleasant and friendly addition to your
+                            team. I am therefore currently looking for a job or an internship as a Front-end
+                            developer.</p>
                     </div>
                     <!-- LANGUAGES -->
                     <div class="col-12">
                         <h2 class="raleway">
                             <i class="fas fa-language"></i>
                             LANGUAGES</h2>
-                        <h4 class="courier-prime"> <i class="fas fa-globe"></i> English - B2</h4>
+                        <h4 class="courier-prime">
+                            <i class="fas fa-globe"></i>
+                            English - B2</h4>
                     </div>
                     <!-- HOBBY -->
                     <div class="col-12">
@@ -84,9 +87,13 @@
                                     Linkedin</a>
                             </li>
                             <li>
-                                <button class="p-1 m-1 oswald">
-                                    <i class="fas fa-download"></i>
-                                    Download Resume</button>
+                                <div class="p-0 m-0">
+                                    <button class="p-1 m-1 oswald btn-tooltip" disabled>
+                                        <i class="fas fa-download"></i>
+                                        Download Resume <span class="tooltip-text">
+                                                I'm working on it!</span></button>
+                                    
+                                </div>
                             </li>
                         </ul>
                     </div>
@@ -100,23 +107,27 @@
                     <h1 class="raleway">EXPERIENCE</h1>
                     <ul class="text-align-justify list-style-none">
                         <li>
-                            <h2 class="text-lightgray oswald"><i class="fas fa-flask"></i> Junior Software Engineer</h2>
+                            <h2 class="text-lightgray oswald">
+                                <i class="fas fa-flask"></i>
+                                Junior Software Engineer</h2>
                             <div>
                                 <span class="oswald">GlobalLogic |
                                 </span>
                                 <span class="text-gray">Jul 2019 - Aug 2019</span>
                             </div>
-                            <p class="text-lightgray courier-prime">Summer academy was a two-month intern program ,divided into
-                                two theoretical and paractical parts - each phase lasting one month. While
-                                carrying out programming exercises ,participants got familiar with numerous .NET
-                                Technologies and frameworks as well as tried to combine it with modern front-end
-                                technology such as Angular. The second part focused on learning teamwork and
-                                scrum methodology: participants had to put into practice all of acquired skills
-                                in order to meet clients expextations while developing the requested application
-                                from scratch.</p>
+                            <p class="text-lightgray courier-prime">Summer academy was a two-month intern
+                                program ,divided into two theoretical and paractical parts - each phase lasting
+                                one month. While carrying out programming exercises ,participants got familiar
+                                with numerous .NET Technologies and frameworks as well as tried to combine it
+                                with modern front-end technology such as Angular. The second part focused on
+                                learning teamwork and scrum methodology: participants had to put into practice
+                                all of acquired skills in order to meet clients expextations while developing
+                                the requested application from scratch.</p>
                         </li>
                         <li>
-                            <h2 class="text-lightgray oswald"><i class="fas fa-flask"></i> Junior Support Specialist</h2>
+                            <h2 class="text-lightgray oswald">
+                                <i class="fas fa-flask"></i>
+                                Junior Support Specialist</h2>
                             <div class="mb-1">
                                 <span class="oswald">SalesManago |
                                 </span>
@@ -143,7 +154,9 @@
                             width="75"
                             height="75"
                             align="left">
-                            <h2 class="text-lightgray">AGH University of Science and Technology</h2>
+                            <h2 class="text-lightgray">
+                                <i class="fas fa-university"></i>
+                                AGH University of Science and Technology</h2>
                         </div>
                         <span class="text-align-center">M. Sc. Geology Engineering |
                         </span>
@@ -355,15 +368,24 @@
         <footer class="col-12 text-align-center">
             <div class="m-3">
                 <h1 class="raleway">FIND ME IN SOCIAL MEDIA</h1>
-                <span class="footer-social-icon"><i class="fab fa-facebook"></i></span>
-                <span class="footer-social-icon"><i class="fab fa-instagram"></i></span>
-                <span class="footer-social-icon"><i class="fab fa-github-alt"></i></span>
-                <span class="footer-social-icon"><i class="fab fa-linkedin"></i></i></span>
-                <br>
-                <button class="p-1 m-2 oswald">to the top</button>
-            </div>
-        </footer>
-    </div>
+                <span class="footer-social-icon">
+                    <i class="fab fa-facebook"></i>
+                </span>
+                <span class="footer-social-icon">
+                    <i class="fab fa-instagram"></i>
+                </span>
+                <span class="footer-social-icon">
+                    <i class="fab fa-github-alt"></i>
+                </span>
+                <span class="footer-social-icon">
+                    <i class="fab fa-linkedin"></i>
+                </i>
+            </span>
+            <br>
+            <button class="p-1 m-2 oswald btn-to-top"><a href="#top"  style="text-decoration: none; color: inherit;">To top</a></button>
+        </div>
+    </footer>
+</div>
 
 </body>
 </html>

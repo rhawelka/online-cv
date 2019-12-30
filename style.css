@@ -64,7 +64,7 @@
   .text-white{color: white;}
   .text-gray{color: gray;}
 
-/* TEXT FAMILY */
+/* FONT FAMILY */
 
   .oswald{
     font-family: 'Oswald', sans-serif;
@@ -90,7 +90,7 @@
       list-style: none;
   }
 
-.list-style-none a {
+.text-decoration-none {
     text-decoration: none;
     color: inherit;
 }
@@ -370,5 +370,11 @@ svg circle:nth-child(2){
     /* For mobile phones: */
     [class*="col-"] {
       width: 100%;
+    }
+
+    .language-part,
+    .hobby-part,
+    .links-part{
+        text-align: center;
     }
   }

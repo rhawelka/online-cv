@@ -161,7 +161,7 @@ position: absolute;
 
 /* SKILLS PROGRESS BAR */ 
 
-.card{
+.skill-card{
     position: relative;
         display: flex;
     justify-content: center;
@@ -173,7 +173,7 @@ position: absolute;
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
 }
-.card:hover{
+.skill-card:hover{
     box-shadow: 0 15px 35px rgba(0, 0, 0, .5);
     transform: translateY(-10px);
     -webkit-transform: translateY(-10px);
@@ -209,62 +209,62 @@ svg circle:nth-child(2){
     stroke-dashoffset:400;
 }
 /*HTML*/
-.card:nth-child(1) svg circle:nth-child(2){
+.skill-card:nth-child(1) svg circle:nth-child(2){
     stroke-dashoffset: calc(400 - (400 * 75) / 100);
     stroke: orange;
 }
 /*CSS*/
-.card:nth-child(2) svg circle:nth-child(2){
+.skill-card:nth-child(2) svg circle:nth-child(2){
     stroke-dashoffset: calc(400 - (400 * 75) / 100);
     stroke: blue;
 }
 /*SASS/SCSS*/
-.card:nth-child(3) svg circle:nth-child(2){
+.skill-card:nth-child(3) svg circle:nth-child(2){
     stroke-dashoffset: calc(400 - (400 * 50) / 100);
     stroke: pink;
 }
 /*BOOTSTRAP*/
-.card:nth-child(4) svg circle:nth-child(2){
-    stroke-dashoffset: calc(400 - (400 * 75) / 100);
+.skill-card:nth-child(4) svg circle:nth-child(2){
+    stroke-dashoffset: calc(400 - (400 * 60) / 100);
     stroke: purple;
 }
 /*JAVASCRIPT*/
-.card:nth-child(5) svg circle:nth-child(2){
-    stroke-dashoffset: calc(400 - (400 * 75) / 100);
+.skill-card:nth-child(5) svg circle:nth-child(2){
+    stroke-dashoffset: calc(400 - (400 * 70) / 100);
     stroke: yellow;
 }
 /*TYPESCRIPT*/
-.card:nth-child(6) svg circle:nth-child(2){
-    stroke-dashoffset: calc(400 - (400 * 75) / 100);
+.skill-card:nth-child(6) svg circle:nth-child(2){
+    stroke-dashoffset: calc(400 - (400 * 70) / 100);
     stroke: lightblue;
 }
 /*JQUERY*/
-.card:nth-child(7) svg circle:nth-child(2){
+.skill-card:nth-child(7) svg circle:nth-child(2){
     stroke-dashoffset: calc(400 - (400 * 75) / 100);
     stroke: rgb(221, 183, 127);
 }
 /*ANGULAR*/
-.card:nth-child(8) svg circle:nth-child(2){
+.skill-card:nth-child(8) svg circle:nth-child(2){
     stroke-dashoffset: calc(400 - (400 * 75) / 100);
     stroke: red;
 }
 /*REACT*/
-.card:nth-child(9) svg circle:nth-child(2){
-    stroke-dashoffset: calc(400 - (400 * 75) / 100);
+.skill-card:nth-child(9) svg circle:nth-child(2){
+    stroke-dashoffset: calc(400 - (400 * 55) / 100);
     stroke: rgb(25, 64, 88);
 }
 /*C#*/
-.card:nth-child(10) svg circle:nth-child(2){
-    stroke-dashoffset: calc(400 - (400 * 75) / 100);
+.skill-card:nth-child(10) svg circle:nth-child(2){
+    stroke-dashoffset: calc(400 - (400 * 40) / 100);
     stroke: purple;
 }
 /*SQL*/
-.card:nth-child(11) svg circle:nth-child(2){
+.skill-card:nth-child(11) svg circle:nth-child(2){
     stroke-dashoffset: calc(400 - (400 * 75) / 100);
     stroke: blue;
 }
 /*GIT*/
-.card:nth-child(12) svg circle:nth-child(2){
+.skill-card:nth-child(12) svg circle:nth-child(2){
     stroke-dashoffset: calc(400 - (400 * 75) / 100);
     stroke: rgb(236, 104, 104);
 }
@@ -308,7 +308,7 @@ svg circle:nth-child(2){
     -o-transition: 0.5s;
 }
 
-.card:hover .percent .number h2{
+.skill-card:hover .percent .number h2{
     color: #fff;
     font-size: 60px;
 }
@@ -323,11 +323,11 @@ svg circle:nth-child(2){
     -o-transition: 0.5s;
 }
 
-.card:hover .percent .number h2 span{
+.skill-card:hover .percent .number h2 span{
     color: #fff;
 }
 
-.card .box .text{
+.skill-card .box .text{
     position: relative;
     color: #777;
     font-weight: 700;
@@ -341,7 +341,7 @@ svg circle:nth-child(2){
     -o-transition: 0.5s;
 }
 
-.card:hover .box .text{
+.skill-card:hover .box .text{
     color: white;
 }
 
@@ -368,6 +368,7 @@ svg circle:nth-child(2){
 
 /* Extra small devices (phones, 600px and down) */
 
+
   
   @media only screen and (max-width: 768px) {
     /* For mobile phones: */
@@ -381,11 +382,11 @@ svg circle:nth-child(2){
         text-align: center;
     }
 
-    .card{
+    .skill-card{
         width: 50%;
     }
   }
 
   @media only screen and (max-width: 500px) {
-    .card{width: 100%;}
+    .skill-card{width: 100%;}
 }
